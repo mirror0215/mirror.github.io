@@ -1,0 +1,21 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;/*中央揃え*/
+}
+
+/*ヘッダーのメイン記述部分*/
+.Main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.Main > h2{
+    font-size: 50px;
+}
+.Main > h3{
+    font-size: 30px;
+    text-align: left;
+}
+.Main > p{
+    font-size: 20px;
+}
