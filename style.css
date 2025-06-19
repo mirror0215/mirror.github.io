@@ -1,21 +1,63 @@
-header{
-    background-color: black;
+.header {
+    background-color: navy;
+    display: flex;
+}
+.header-main{
+    font-size: 40px;
+    width: 40%;
     color: white;
-    text-align: center;/*中央揃え*/
+    text-align: center;
+}
+.header-nav{
+    width: 60%;
+    text-align: center;
+    padding: 40px;
 }
 
-/*ヘッダーのメイン記述部分*/
-.Main{
-    margin-left: 20%;
-    margin-right: 20%;
+.header-nav > a{
+    font-size: 23px;
+    margin-left: 60px;
+    text-align: center;
+    color: white;
+    display: inline;
 }
-.Main > h2{
+
+.main{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
     font-size: 50px;
+    text-align: center;
+    border-left: 10px solid navy ;
+    margin-right: 23%;
+    margin-left: 23%;
 }
-.Main > h3{
+.profile{
+
+
+}
+.main-title {
+    margin-top: 80px;
+    color: black;
     font-size: 30px;
-    text-align: left;
+    border-bottom: 3px solid navy;
+    border-left: 10px solid navy;
 }
-.Main > p{
+p{
     font-size: 20px;
+}
+
+.main-nav{
+    background-color: lightgray;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 25px;
+    display: block;
+}
+.main-nav>a{
+    color: navy;
 }
